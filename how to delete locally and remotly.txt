@@ -1,0 +1,6 @@
+tell me how to delete tag locally and remotely.?
+	remotely.
+$ git push --delete origin tagname
+
+		locally 
+$ git tag -d <tag_name>

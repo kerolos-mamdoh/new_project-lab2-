@@ -1,0 +1,40 @@
+ex(1)
+$ git init
+$ git remote add origin https://github.com/kerolos-mamdoh/new_project-lab2-.git
+$ git add .
+$ git commit -m"new project"
+$ git push origin master
+
+(ex2)
+$ git branch dev
+$ git branch test
+$ git checkout dev
+$ git add .
+$ git commit -m "add files in dev"
+$ git checkout master
+$ git merge dev
+$ git push origin master
+
+ex(3)
+$ git log --oneline
+$ git tag v1.4.0 3a850b7
+$ git push origin v1.4.0
+? tell me how to list tags locally.?
+$ git tag
+tell me how to delete tag locally and remotely.?
+	remotely.
+$ git push --delete origin tagname
+
+		locally 
+$ git tag -d <tag_name>
+
+What is git rebase?
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. 
+Rebasing is most useful and easily visualized in the context of a feature branching workflow
+
+
+
+
+
+
+

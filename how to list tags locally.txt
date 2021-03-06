@@ -1,0 +1,2 @@
+﻿● tell me how to list tags locally.?
+$ git tag
